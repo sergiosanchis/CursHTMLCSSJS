@@ -1,0 +1,93 @@
+<!--Create a page with two sections. 
+In the first one, enter your contact information, a youtube video-curriculum and a profile image.
+In the second one, list your professional goals, current studies and make an ordered list of your best qualities.
+
+Finally, create a language section using a table. For each language you must specify writing and oral skills level.
+
+At the end of the document, add a button that makes the user go to top. And at top, a button that goes to the end.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curriculum</title>
+	<style>
+		table, tr, td, th{
+			border-collapse: collapse;	
+		}
+		td, th{
+			text-align: center;
+			border:1px solid black;
+			width: 20%;
+		}
+		</style>
+</head>
+<body>
+	<div id="buttons">
+		<a href=#contactInformation>
+			<button>Go to Contact information</button>
+		</a>
+		<a href=#aboutMe>
+			<button>Go to About me</button>
+		</a>
+		<a href=#languages>
+			<button>Go to Languages</button>
+		</a>
+	</div>
+	<div id="contactInformation">
+		<h1> Contact information </h1>
+		<hr>
+		<img src="barney.jpg">
+		<ul>
+			<li><b>Name:</b> Barney Stinson</li>
+			<li><b>Age:</b> 30 years</li>
+			<li><b>Phone:</b> 0000-000-000</li>
+			<li><b>Mail:</b> barney@legendary.com</li>
+		</ul>
+		<iframe src="https://www.youtube.com/embed/GuLcxg5VGuo" width="420" height="315"></iframe>
+	</div>
+	<br>
+	<div id="aboutMe">
+		<h1> About me </h1>
+		<hr>
+		<h2> Professional goals </h2>
+		P.L.E.A.S.E.
+		<h2> Current studies </h2>
+		Master in MIT
+		<h2> Best qualities </h2>
+		<ol>
+			<li>Amazing</li>
+			<li>Awesome</li>
+			<li>Legendary</li>
+		</ol>
+	</div>
+	<div id="languages">
+		<h1>Languages</h1>
+		<hr>
+		<table>
+			<tr>
+				<th>Language</th>
+				<th>Oral skill</th>
+				<th>Writting skill</th>
+			</tr>
+			<tr>
+				<td>English</td>
+				<td>Native</td>
+				<td>Native</td>
+			</tr>
+			<tr>
+				<td>Turkish</td>
+				<td>Advance</td>
+				<td>Basic</td>
+			</tr>
+			<tr>
+				<td>Chinese</td>
+				<td>Advance</td>
+				<td>Basic</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<a href=#buttons>
+		<button>Go to index</button>
+	</a>
+</body>
+</html>
