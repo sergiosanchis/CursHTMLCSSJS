@@ -21,4 +21,11 @@ function updateFruit() {
 	ctx.fill();
 }
 
+function drawBall(x, y, color="black"){
+	ctx.beginPath();
+	ctx.arc(x,y,r,0, Math.PI*2, true);
+	ctx.fillStyle = color;
+	ctx.fill();
+}
+
 window.onload = initialize;
