@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poke Table</title>
+	<link rel="stylesheet" type="text/css" href="pokeTable.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="pokeTable.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Code</th>
+			<th>Normal sprite</th>
+			<th>Shiny sprite</th>
+			<th>Name</th>
+			<th>Type</th>
+			<th>HM</th>
+		</tr>
+		<tr>
+			<td id="code"></td>
+			<td>
+				<img id="normalSprite">
+			</td>
+			<td>
+				<img id="shinySprite">
+			</td>
+			<td id="name"></td>
+			<td id="type"></td>
+			<td id="hm"></td>
+		</tr>
+	</table>
+	<button id="nextButton" click="nextPokemon">Next</button>
+</body>
+</html>
