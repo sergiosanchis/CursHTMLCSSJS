@@ -13,3 +13,49 @@ body {
 main {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14 em; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14 em; }
+
+#container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  height: 80%;
+  margin-top: 10%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+#button-home {
+  position: fixed;
+  top: 5%;
+  right: 5%; }
+
+#container > div {
+  display: flex;
+  height: 40%;
+  width: 40%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  background-color: #e5e5e5;
+  justify-content: center;
+  align-items: center; }
+
+#container > div:hover {
+  filter: sepia(); }

@@ -9,19 +9,20 @@
 
 <body>
     <a href=../index.html>
-        <button>Go home</button>
+        <button id="button-home">Go home</button>
     </a>
-    <form action="./form.js">
-        <label for="Name">Name::</label>
-        <input type="text" name="name" />
+    <form name="myForm" onsubmit="showData()">
+        <label for="Name">Name:</label>
+        <input type="text" name="name" required/>
         <br>
         <br>
         <label for="Password">Password:</label>
-        <input type="password" name="password" />
+        <input type="password" name="password" required/>
         <br>
         <br>
         <input type="submit" name="submit">
     </form>
+    </div>
 </body>
 
 </html>
